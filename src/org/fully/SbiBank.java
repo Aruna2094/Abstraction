@@ -43,6 +43,7 @@ public class SbiBank implements RbiBank {
 		r.current();
 		r.od();
 		r.fixed();
+		System.out.println("done");
 	}
 
 }
